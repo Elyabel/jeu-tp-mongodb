@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 dotenv.config();
 
-const MONGO_URI = "mongodb+srv://jade:ML038q701TI6thJF@cluster0.okv1hb6.mongodb.net/?appName=Cluster0";
+const MONGO_URI = "DB_URL";
 
 export async function connectDB() {
   try {
